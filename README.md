@@ -6,8 +6,8 @@ TODO:
 - form validation + display tips
 
 Accounts can be used to test: 
-```JohnDoe. john.doe@gmail.com, 123456```
-```admin. admin@gmail.com, 654321```
+- JohnDoe, john.doe@gmail.com, 123456
+- admin, admin@gmail.com, 654321
 
 
 
