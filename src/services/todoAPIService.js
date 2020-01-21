@@ -28,7 +28,6 @@ class todoAPIService {
   };
 
   register = async (userName, password, email) => {
-    console.log(userName, password, email);
     const taskList = await fetch(`${this.baseURL}/register`, {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
