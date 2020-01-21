@@ -124,7 +124,6 @@ export default class App extends Component {
   };
 
   getTaskList = async () => {
-    console.log('Update Task List!');
     const taskList = await this.state.todoAPIService.getTaskList(this.state.userName, this.state.password);
 
     if (!taskList.error) {
